@@ -58,6 +58,10 @@ class Solution {
         
         return parent[x] = find(parent, parent[x]);
     }
+  //  Input 1:  n=6  connections =[[0,1],[0,2],[0,3],[1,2]]  Output=-1
+  //  Input 2: n= 4  connections =[[0,1],[0,2],[1,2]]   Output=1
+
+
 
         
     
